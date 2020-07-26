@@ -10,9 +10,7 @@
 
 .elatech1{
     background-color:#F24849;
-    height: 100vh;
     box-sizing: border-box;
-    background-size: 1935px;
     font-size: 20px;
     padding-left:2em;
     padding-top: 4em;
@@ -51,12 +49,10 @@
   .elatech2{
     background-color:#F7F7F7;
     padding-top: 0px;
-    height: 100%;
     box-sizing: border-box;
     background-repeat: no-repeat;
     text-align: center;
     background-attachment: fixed;
-    background-size: 1940px;
     overflow: hidden;
   
    
@@ -192,12 +188,10 @@ blockquote:after {
 .elatech3{
   background-color:#F7F7F7;
   padding-top: 0px;
-  height: 100vh;
   box-sizing: border-box;
   background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;
-  background-size: 1940px;
   overflow: hidden;
 
  
@@ -339,12 +333,10 @@ div.text-container {
 .elatech5{
   background-color:#F7F7F7;
   padding-top: 0px;
-  height: 100vh;
   box-sizing: border-box;
   background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;
-  background-size: 1940px;
   overflow: hidden;
 
  
@@ -487,12 +479,10 @@ div.text-container {
 
 .elatech7{
   padding-top: 0px;
-  height: 100vh;
   box-sizing: border-box;
   background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;
-  background-size: 1740px;
   overflow: hidden;
 
  
