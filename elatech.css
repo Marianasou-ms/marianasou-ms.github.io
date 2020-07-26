@@ -108,7 +108,7 @@ blockquote:after {
 }
 
 .image {
-  background-image: url('../imagem/mockupelatech.jpg');
+  background-image: url('appsesc.png');
   background-color: #FFF;
   background-position: 50% 0%;
   background-size: cover;
