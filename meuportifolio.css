@@ -47,12 +47,10 @@
      .elatech2{
        background-color:#F7F7F7;
        padding-top: 0px;
-       height: 100%;
        box-sizing: border-box;
        background-repeat: no-repeat;
        text-align: center;
        background-attachment: fixed;
-       background-size: 1940px;
        overflow: hidden;
      
       
@@ -152,12 +150,10 @@
     
    .appsesc3{
      padding-top: 0px;
-     height: 100vh;
      box-sizing: border-box;
      background-repeat: no-repeat;
      text-align: center;
      background-attachment: fixed;
-     background-size: 1940px;
      overflow: hidden;
    
     
@@ -267,12 +263,10 @@
    .appsesc4{
      background-color:#F7F7F7;
      padding-top: 0px;
-     height: 100vh;
      box-sizing: border-box;
      background-repeat: no-repeat;
      text-align: center;
      background-attachment: fixed;
-     background-size: 1940px;
      overflow: hidden;
    
     
@@ -378,12 +372,10 @@
    .appsesc5{
     background-color: white;
     padding-top: 0px;
-    height: 100vh;
     box-sizing: border-box;
     background-repeat: no-repeat;
     text-align: center;
     background-attachment: fixed;
-    background-size: 1940px;
     overflow: hidden;
     background-position: center;
   
@@ -497,7 +489,6 @@
   .appsesc6{
     background-color: white;
     padding-top: 0px;
-    height: 100vh;
     box-sizing: border-box;
     background-repeat: no-repeat;
     text-align: center;
