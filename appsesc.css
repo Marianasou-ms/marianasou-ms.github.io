@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+     
+   }
+
+   
+   .appsesc1{
+       background-color:#0096A6;
+       height: 100vh;
+       box-sizing: border-box;
+       background-size: 1935px;
+       font-size: 18px;
+       padding-left:2em;
+       padding-top: 2em;
+       color: white;
+       font-family: "Montserrat", sans-serif;
+     
+     }
+     
+     .appsesc1 p{
+       margin:0;
+     }
+    
+     .tituloeappsesc{
+       font-size: 60px;
+       color: white;
+     }
+     
+     
+     @element 'paragrafocontexto' {
+       $this:after {
+         content: 'eval('innerHTML.length') characters and eval('clientHeight')px';
+         display: block;
+       }
+     }
+     
+     .paragrafocontexto {
+       font-size: 12pt;
+     }
+     @element 'paragrafocontexto' and (min-characters: 250){
+       $this {
+         font-size: eval("100-(innerHTML.length-250)/(clientWidth/10)")%;
+       }
+     }
+    
+     
+     .elatech2{
+       background-color:#F7F7F7;
+       padding-top: 0px;
+       height: 100%;
+       box-sizing: border-box;
+       background-repeat: no-repeat;
+       text-align: center;
+       background-attachment: fixed;
+       background-size: 1940px;
+       overflow: hidden;
+     
+      
+     }
+     
+     .elatech2 p{
+       margin:0;
+     }
+     
+   
+   div {
+     display: flex;
+     flex-direction: column;
+     /* use: 'row' for text from top to bottom */
+     justify-content: center;
+   }
+   
+   h1 {
+     font-size: 1em;
+     margin: 0 0 0.75em 0;
+   }
+   
+   .container {
+     display: flex;
+     flex-wrap: wrap;
+     /* This line makes FlexBox responsive */
+   }
+   
+   .text {
+     background-color:white;
+     flex: 1 0 50%;
+     max-width: 980px;
+     /* Fill in min-width for your halfscreens, functions as 'breakpoint' for flex-wrap: wrap; */
+     box-sizing: border-box;
+     padding: 1em;
+     min-height: 50vh;
+    text-align: center;
+    font-size: 20px;
+   }
+   
+   
+   
+   .image {
+     background-image: url('../imagem/sescpro.png');
+     background-position: 200% 50%;
+     background-size: cover;
+     flex: 1 0 50%;
+     min-width: 100px;
+     box-sizing: border-box;
+     padding: 1em;
+     min-height: 50vh;
+   }
+     
+   
+     
+     
+   div {
+     display: flex;
+     flex-direction: column;
+     /* use: 'row' for text from top to bottom */
+     justify-content: center;
+   }
+   
+   h1 {
+     font-size: 3em;
+     margin: 0 0 0.75em 0;
+   }
+   
+   .container2 {
+     display: flex;
+     flex-wrap: wrap;
+     /* This line makes FlexBox responsive */
+   }
+   
+   .text2 {
+     background-color: white;
+     flex: 1 0 50%;
+     min-width: 300px;
+     /* Fill in min-width for your halfscreens, functions as 'breakpoint' for flex-wrap: wrap; */
+     box-sizing: border-box;
+     padding: 1em;
+     min-height: 50vh;
+     text-align: center;
+     font-size: 30px;
+   }
+   
+   
+  
+   
+   .spannegrito{
+     color:#0096A6;
+     font-weight: bold;
+   }
+     
+   
+    
+   .appsesc3{
+     padding-top: 0px;
+     height: 100vh;
+     box-sizing: border-box;
+     background-repeat: no-repeat;
+     text-align: center;
+     background-attachment: fixed;
+     background-size: 1940px;
+     overflow: hidden;
+   
+    
+   }
+   
+   .appsesc3 p{
+     margin:0;
+   }
+   
+   
+   .spansesc3 {
+     display: inline-block;
+     width: 50px;
+     height: 5px;
+     background-color:#0096A6;
+     margin-bottom: 30px;
+   }
+   
+   img {
+     width: 100%;
+   }
+   
+   .discoverysesc3 {
+     font-weight: 400;
+     font-size: 35px;
+     margin: 0 0 15px;
+     color: #0096A6;
+   }
+   
+   .p1 {
+     font-weight: 200;
+     line-height: 35px;
+     margin: 0 0 20px 0;
+     font-size: 25px;
+     color:black;
+     font-weight: bold;
+   }
+   
+   a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color:#0096A6;
+     font-weight: bold;
+     font-size: 12px;
+     position: relative;
+     display: inline-block;
+     z-index: 1;
+     padding: 5px;
+     left: -5px;
+   }
+   
+   
+   
+   div.sitesesc3 {
+     background-color: white;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image:#0096A6;
+   }
+   
+   
+   div.containersesc3{
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 30px;
+     box-shadow: 0 8px 16px rgba(black, .45);
+   }
+   
+   
+   
+   div.text-container {
+     margin: 60px 45px 55px;
+   }
+   
+   
+   @media screen and (min-width: 768px) {
+    div.containersesc3 {
+      flex-direction: row;
+       width: 100%;
+    }
+     
+     div.img {
+        height: 420px;
+        min-width: 360px;
+     }
+     
+     div.text-container {
+        margin: 0 60px;
+        max-width: 660px;
+     }
+   }
+   
+   @media screen and (min-width: 1024px) {
+     div.containersesc3 {
+        max-width: 1200px;
+     }
+   }
+   
+   @media screen and (min-width: 1200px) {
+   }
+   
+   
+   .appsesc4{
+     background-color:#F7F7F7;
+     padding-top: 0px;
+     height: 100vh;
+     box-sizing: border-box;
+     background-repeat: no-repeat;
+     text-align: center;
+     background-attachment: fixed;
+     background-size: 1940px;
+     overflow: hidden;
+   
+    
+   }
+   
+   .appsesc4 p{
+     margin:0;
+   }
+   
+   
+     
+   .spansesc4 {
+     display: inline-block;
+     width: 50px;
+     height: 5px;
+     background-color:#0096A6;
+     margin-bottom: 30px;
+   }
+   
+   img {
+     width: 100%;
+   }
+   
+   h1 {
+     font-weight: 600;
+     font-size: 28px;
+     margin: 0 0 15px;
+   }
+   
+   p {
+     font-weight: 400;
+     line-height: 34px;
+     margin: 0 0 15px 0;
+     font-size: 15px;
+   }
+   
+   a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color:#5d4954;
+     font-weight: bold;
+     font-size: 12px;
+     position: relative;
+     display: inline-block;
+     z-index: 1;
+     padding: 5px;
+     left: -5px;
+   }
+   
+   
+   
+   div.sitesesc4 {
+     background-color: white;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image:#0096A6;
+   }
+   
+   
+   div.containersesc4 {
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 30px;
+     box-shadow: 0 8px 16px rgba(black, .45);
+   }
+   
+   
+   div.text-container {
+     margin: 60px 45px 55px;
+   }
+   
+   
+   @media screen and (min-width: 768px) {
+    div.containersesc4 {
+      flex-direction: row;
+       width: 100%;
+    }
+     
+     div.img {
+        height: 420px;
+        min-width: 360px;
+     }
+     
+     div.text-container {
+        margin: 0 60px;
+        max-width: 660px;
+     }
+   }
+   
+   @media screen and (min-width: 1024px) {
+     div.containersesc4 {
+        max-width: 1200px;
+     }
+   }
+   
+   @media screen and (min-width: 1200px) {
+   }
+   .appsesc5{
+    background-color: white;
+    padding-top: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: 1940px;
+    overflow: hidden;
+    background-position: center;
+  
+   
+  }
+  
+  .appsesc5 p{
+    margin:0;
+  }
+  
+  
+  
+  
+  .spansesc5 {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color:#0096A6;
+    margin-bottom: 30px;
+  }
+  
+  .img {
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0 0 15px;
+  }
+  
+  p {
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0096A6;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 5px;
+    left: -5px;
+  }
+  
+      
+  div.sitesesc5 {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:#0096A6;
+  }
+  
+  
+  div.containersesc5 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 8px 16px rgba(black, .45);
+  }
+  
+ 
+  
+  div.text-container {
+    margin: 60px 45px 55px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+   div.containersesc5 {
+     flex-direction: row;
+      width: 100%;
+   }
+    
+    div.img {
+       height: 400px;
+       min-width: 360px;
+    }
+    
+    div.text-container {
+       margin: 0 60px;
+       max-width: 660px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    div.containersesc5 {
+       max-width: 1200px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+  }
+  
+  
+  .appsesc6{
+    background-color: white;
+    padding-top: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: 1340px;
+    overflow: hidden;
+    background-position: center;
+  
+   
+  }
+  
+  .appsesc6 p{
+    margin:0;
+
+  }
+   .sescpro2{ display: block;
+    margin: 5px auto;
+    max-width: 100%;
+    }
