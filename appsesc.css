@@ -95,7 +95,7 @@
    
    
    .image {
-     background-image: url('../imagem/sescpro.png');
+     background-image: url('sescpro.png');
      background-position: 200% 50%;
      background-size: cover;
      flex: 1 0 50%;
@@ -211,11 +211,7 @@
    
    div.sitesesc3 {
      background-color: white;
-     height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     background-image:#0096A6;
+   
    }
    
    
