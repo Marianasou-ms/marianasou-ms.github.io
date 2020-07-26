@@ -94,7 +94,7 @@
    
    
    .image {
-     background-image: url('../imagem/mesaportifa.jpg');
+     background-image: url('mesaportifa.png');
      background-color:;
      background-position: 200% 50%;
      background-size: cover;
