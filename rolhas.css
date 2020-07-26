@@ -211,7 +211,7 @@
    div.imgrolha3 {
     height:200px;
     width: 500px;
-    background: url("../imagem/moçorolha.png");
+    background: url("moçorolha.png");
     background-position: center;
     background-size: cover;
   }
