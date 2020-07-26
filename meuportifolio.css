@@ -4,6 +4,21 @@
      
    }
 
+.appsesc1{
+       background-color:#5d4954;
+       box-sizing: border-box;
+       font-size: 18px;
+       padding-left:2em;
+       padding-top: 2em;
+       color: white;
+       font-family: "Montserrat", sans-serif;
+     
+     }
+     
+     .appsesc1 p{
+       margin:0;
+     }
+
    
     
      .tituloeappsesc{
