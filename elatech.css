@@ -167,17 +167,6 @@ blockquote:after {
   content: close-quote;
 }
 
-.image2 {
-  background-image: url('../imagem/projetoela.png');
-  background-color: #FFF;
-  background-position: 50% 0%;
-  background-size: cover;
-  flex: 1 0 50%;
-  min-width: 300px;
-  box-sizing: border-box;
-  padding: 1em;
-  min-height: 50vh;
-}
 
 .spannegrito{
   color:#F24849;
