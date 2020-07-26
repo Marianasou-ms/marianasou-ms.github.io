@@ -763,7 +763,7 @@ div.containergarrafa {
 div.img {
   height: 300px;
   width: 100%;
-  background: url("../imagem/euzinha.jpg");
+  background: url("euzinha.png");
   background-position: center;
   background-size: cover;
 }
