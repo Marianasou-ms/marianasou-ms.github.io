@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+     
+   }
+   
+   
+   
+   
+   
+   .rolhas1{
+       background-color:#E6AFC5;
+       height: 100vh;
+       box-sizing: border-box;
+       background-size: 1935px;
+       font-size: 20px;
+       padding-left:2em;
+       padding-top: 4em;
+       color: black;
+       font-family: "Montserrat", sans-serif;
+       font-size: 15px;
+     
+     }
+     
+     .rolhas1 p{
+       margin:0;
+     }
+    
+     .titulorolhas{
+       font-size: 40px;
+       color: black;
+     }
+     
+     
+     @element 'paragrafocontexto' {
+       $this:after {
+         content: 'eval('innerHTML.length') characters and eval('clientHeight')px';
+         display: block;
+       }
+     }
+     
+     .paragrafocontexto {
+       font-size: 12pt;
+     }
+     @element 'paragrafocontexto' and (min-characters: 250){
+       $this {
+         font-size: eval("100-(innerHTML.length-250)/(clientWidth/10)")%;
+       }
+     }
+    
+     
+     .rolhas2{
+       background-color:#F7F7F7;
+       padding-top: 0px;
+       height: 100%;
+       box-sizing: border-box;
+       background-repeat: no-repeat;
+       text-align: center;
+       background-attachment: fixed;
+       background-size: 1940px;
+       overflow: hidden;
+     
+      
+     }
+     
+     .rolhas2 p{
+       margin:0;
+     }
+     
+   
+         
+    .spanrolha2 {
+      display: inline-block;
+      width: 50px;
+      height: 5px;
+      background-color: #E6AFC5;
+      margin-bottom: 30px;
+    }
+    
+    
+    .discoveryrolha2 {
+      font-weight: 400;
+      font-size: 50px;
+      margin: 0 0 15px;
+      color: #E6AFC5;
+    }
+    
+    .p1 {
+      font-weight: 400;
+      line-height: 30px;
+      margin: 0 0 15px 0;
+      font-size: 16px;
+      color:black;
+      font-weight: bold;
+    }
+    
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #E6AFC5;
+      font-weight: bold;
+      font-size: 12px;
+      position: relative;
+      display: inline-block;
+      z-index: 1;
+      padding: 5px;
+      left: -5px;
+    }
+    
+   
+      div.siterolha2 {
+      background-color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: #E6AFC5;
+    }
+    
+    
+    div.containerrolha2 {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 30px;
+      box-shadow: 0 8px 16px rgba(black, .45);
+    }
+    
+    
+    
+    div.text-container {
+      margin: 60px 45px 55px;
+    }
+    
+    
+    @media screen and (min-width: 768px) {
+     div.containerrolha2 {
+       flex-direction: row;
+        width: 100%;
+     }
+      
+      div.img {
+         height: 420px;
+         min-width: 360px;
+      }
+      
+      div.text-container {
+         margin: 0 60px;
+         max-width: 660px;
+      }
+    }
+   
+    
+   .rolhas3{
+     background-color:#F7F7F7;
+     padding-top: 0px;
+     height: 100vh;
+     box-sizing: border-box;
+     background-repeat: no-repeat;
+     text-align: center;
+     background-attachment: fixed;
+     background-size: 1940px;
+     overflow: hidden;
+   
+    
+   }
+   
+   .rolhas3 p{
+     margin:0;
+   }
+   
+     
+   .spanrolha3 {
+     display: inline-block;
+     width: 50px;
+     height: 5px;
+     background-color: #E6AFC5;
+     margin-bottom: 30px;
+   }
+   
+   .imgrolha3 {
+     width: 100%;
+   }
+   
+   .discovery {
+     font-weight: 400;
+     font-size: 25px;
+     margin: 0 0 15px;
+     color: #E6AFC5;
+   }
+   
+   .p1 {
+     font-weight: 400;
+     line-height: 24px;
+     margin: 0 0 15px 0;
+     font-size: 16px;
+     color: ;
+     font-weight: bold;
+   }
+   
+   .paulao{
+     color: #E6AFC5;
+   }
+   a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color:#E6AFC5;
+     font-weight: bold;
+     font-size: 12px;
+     position: relative;
+     display: inline-block;
+     z-index: 1;
+     padding: 5px;
+     left: -5px;
+   }
+   
+   div.imgrolha3 {
+    height:200px;
+    width: 500px;
+    background: url("../imagem/moçorolha.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
+   
+   div.siterolha3 {
+     background-color: white;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: #E6AFC5;
+   }
+   
+   
+   div.containerrolha3 {
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 30px;
+     box-shadow: 0 8px 16px rgba(black, .45);
+   }
+   
+   
+   
+   div.text-container {
+     margin: 60px 45px 55px;
+   }
+   
+   
+   @media screen and (min-width: 768px) {
+    div.containerrolha3 {
+      flex-direction: row;
+       width: 100%;
+    }
+     
+     div.imgrolha3 {
+        height: 420px;
+        min-width: 360px;
+     }
+     
+     div.text-container {
+        margin: 0 60px;
+        max-width: 660px;
+     }
+   }
+   
+   @media screen and (min-width: 1024px) {
+     div.containerrolha3 {
+        max-width: 1200px;
+     }
+   }
+   
+   @media screen and (min-width: 1200px) {
+   }
+   
+   * {
+    transition: .33s ease all;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Helvetica Neue", "Arial";
+    box-sizing: border-box;
+  }
+  
+  .spanmari {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color:#F24849;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 0 15px;
+  }
+  
+  p {
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#5d4954;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 5px;
+    left: -5px;
+  }
+  
+  a:hover {
+    color: #5d4954;
+  }
+  
+  a::before {
+    content: '';
+    z-index: -1;
+   position: absolute;
+   top: calc(50%);
+   left: 0;
+   width: 100%;
+   height: 40%;
+   pointer-events: none;
+   transform: scale3d(0,1,1);
+   transform-origin: 0% 50%;
+   transition: transform 0.33s;
+  }
+  
+  a:hover::before {
+    transform: scale3d(1,1,1);
+   transform-origin: 0% 50%;
+  }
+  
+  div.site {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:#5d4954;
+  }
+  
+  
+  div.containermari {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 8px 16px rgba(black, .45);
+  }
+  
+  div.img {
+    height:200px;
+    width: 500px;
+    background: url("../imagem/carinha.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  div.text-container {
+    margin: 60px 45px 55px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+   div.containermari {
+     flex-direction: row;
+      width: 100%;
+   }
+    
+    div.img {
+       height: 420px;
+       min-width: 360px;
+    }
+    
+    div.text-container {
+       margin: 0 60px;
+       max-width: 660px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    div.containermari {
+       max-width: 1200px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+  }
+  
+   
+   * {
+    transition: .33s ease all;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Helvetica Neue", "Arial";
+    box-sizing: border-box;
+  }
+  
+  .spanrolha1 {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color:#F24849;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 0 15px;
+  }
+  
+  p {
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#5d4954;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 5px;
+    left: -5px;
+  }
+  
+  a:hover {
+    color: #5d4954;
+  }
+  
+  a::before {
+    content: '';
+    z-index: -1;
+   position: absolute;
+   top: calc(50%);
+   left: 0;
+   width: 100%;
+   height: 40%;
+   pointer-events: none;
+   transform: scale3d(0,1,1);
+   transform-origin: 0% 50%;
+   transition: transform 0.33s;
+  }
+  
+  a:hover::before {
+    transform: scale3d(1,1,1);
+   transform-origin: 0% 50%;
+  }
+  
+  div.siterolha1 {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:#5d4954;
+  }
+  
+  
+  div.containerrolha1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 8px 16px rgba(black, .45);
+  }
+  
+  div.imgrolha1 {
+    height:200px;
+    width: 500px;
+    background: url("../imagem/moçorolha.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  div.text-container {
+    margin: 60px 45px 55px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+   div.containerrolha1 {
+     flex-direction: row;
+      width: 100%;
+   }
+    
+    div.imgrolha1 {
+       height: 420px;
+       min-width: 360px;
+    }
+    
+    div.text-container {
+       margin: 0 60px;
+       max-width: 660px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    div.containerrolha1 {
+       max-width: 1200px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+  }
+  
+  
+  
+  .rolhas5{
+    padding-top: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: 1940px;
+    overflow: hidden;
+  
+   
+  }
+  
+  .rolhas5 p{
+    margin:0;
+  }
+  
+.secspro{
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+}
+
+  
