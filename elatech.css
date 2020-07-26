@@ -277,11 +277,6 @@ a:hover::before {
 
 div.site1 {
   background-color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image:#F24849;
   
 }
 
