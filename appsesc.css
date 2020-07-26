@@ -319,14 +319,7 @@
    
    div.sitesesc4 {
      background-color: white;
-     height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     background-image:#0096A6;
-   }
-   
-   
+}
    div.containersesc4 {
      background-color: white;
      display: flex;
@@ -430,12 +423,7 @@
       
   div.sitesesc5 {
     background-color: white;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image:#0096A6;
-  }
+}
   
   
   div.containersesc5 {
