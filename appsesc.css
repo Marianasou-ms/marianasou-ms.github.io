@@ -93,7 +93,7 @@
    
    
    .image {
-     background-image: url('sescpro.png');
+     background-image: url("sescpro.png");
      background-position: 200% 50%;
      background-size: cover;
      flex: 1 0 50%;
