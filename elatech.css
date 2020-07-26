@@ -440,7 +440,7 @@ div.containermari {
 div.img {
   height:200px;
   width: 500px;
-  background: url("../imagem/minazinharedonda.png");
+  background: url("minazinharedonda.png");
   background-position: center;
   background-size: cover;
 }
