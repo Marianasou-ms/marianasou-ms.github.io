@@ -43,7 +43,7 @@ nav ul li a{
 }
 a:hover{
   transition: .5s;
-  border-bottom: 5px solid #5d4954; 
+  
 
 }
 .checkbtn{
@@ -89,6 +89,7 @@ a:hover{
   }
   nav ul li a{
     font-size: 20px;
+    color: white;
   }
   a:hover,a.active{
     background: none;
