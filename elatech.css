@@ -11,9 +11,9 @@
 .elatech1{
     background-color:#F24849;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 18px;
     padding-left:2em;
-    padding-top: 4em;
+    padding-top: 2em;
     color: white;
     font-family: "Montserrat", sans-serif;
   
@@ -94,19 +94,7 @@ h1 {
  font-size: 20px;
 }
 
-blockquote {
-  quotes: '“' '”';
-}
 
-blockquote:before {
-  content: '“';
-  content: open-quote;
-}
-
-blockquote:after {
-  content: '”';
-  content: close-quote;
-}
 
 .image {
   background-image: url('mockupelatech.png');
