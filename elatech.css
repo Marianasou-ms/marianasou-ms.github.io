@@ -214,7 +214,7 @@ img {
   font-weight: 400;
   line-height: 30px;
   margin: 0 0 15px 0;
-  font-size: 30px;
+  font-size: 25px;
   color:black;
   font-weight: bold;
   
@@ -341,13 +341,13 @@ html {
 
 h2{
   font-weight: 600;
-  font-size: 60px;
+  font-size: 20px;
   margin: 0 0 15px;
 }
 
 h1 {
   font-weight: 600;
-  font-size: 60px;
+  font-size: 20px;
   margin: 0 0 15px;
 }
 
@@ -355,7 +355,7 @@ p {
   font-weight: 400;
   line-height: 50px;
   margin: 0 0 15px 0;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .persona{
