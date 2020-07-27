@@ -73,7 +73,7 @@ a:hover{
     margin-right: 40px;
   }
   ul{
-    position:;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background: #5d4954;
