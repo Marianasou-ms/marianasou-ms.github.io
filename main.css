@@ -43,6 +43,7 @@ nav ul li a{
 }
 a:hover{
   transition: .5s;
+  border-bottom: 5px solid #5d4954; 
   
 
 }
@@ -81,6 +82,7 @@ a:hover{
     left: -100%;
     text-align: center;
     transition: all .5s;
+    overflow: hidden;
   }
   nav ul li{
     display: block;
