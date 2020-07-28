@@ -418,8 +418,13 @@
   div.sitesesc5 {
     background-color: white;
 }
-  
-  
+
+ .discoverysesc5 {
+     color: #0096A6;
+}
+  .nova{
+      color: #0096A6;
+}
   div.containersesc5 {
     background-color: white;
     display: flex;
